@@ -4,7 +4,7 @@
   "description": "Tailwind CSS Template 1 is a fully responsive template created with Tailwind CSS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
